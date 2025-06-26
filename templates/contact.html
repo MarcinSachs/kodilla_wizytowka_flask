@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Kontakt</h2>
+<ul>
+    <li>email: marcin@xyz.com</li>
+    <li>telefon: +48 111 222 333</li>
+</ul>
+<h3>Wyślij wiadomość</h3>
+<form class="form" action="" method="POST">
+    <input class="message" name="message" type="textarea" />
+    <input class="button" type="submit" value="Prześlij" />
+</form>
+{% endblock %}

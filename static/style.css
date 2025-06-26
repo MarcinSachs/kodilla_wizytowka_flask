@@ -1,0 +1,43 @@
+body {
+    margin: 30px;
+}
+
+.profile-img {
+    width: 15%;
+    height: 15%;
+}
+
+.title {
+    background-color: darkgrey;
+    font-size: 36px;
+}
+
+h2 {
+    color: blue;
+    font-size: 36px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p,
+li {
+    font-size: 25px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.message {
+    width: 250px;
+    height: 100px;
+}
+
+.button {
+    vertical-align: bottom;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
+}
